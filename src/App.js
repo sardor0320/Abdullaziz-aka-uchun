@@ -38,6 +38,7 @@ function App() {
     console.log(data);
 
     toast.success("Product added successfully");
+    setProduct({});
     toggleModal();
     getProducts();
   };
